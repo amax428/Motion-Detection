@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{79C96478-8F55-36F1-9FB6-DC265E58D383}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>cam</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cam.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cam</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cam.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cam</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cam.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cam</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cam.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cam</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\sourse\OpenCV\opencv_build\build\include;E:\sourse\OpenCV\opencv_build\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\sourse\OpenCV\opencv_build\build\include;E:\sourse\OpenCV\opencv_build\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\sourse\OpenCV\opencv_build\build\include;E:\sourse\OpenCV\opencv_build\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build/Debug/cam.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build/Debug/cam.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\sourse\OpenCV\opencv_build\build\include;E:\sourse\OpenCV\opencv_build\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\sourse\OpenCV\opencv_build\build\include;E:\sourse\OpenCV\opencv_build\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\sourse\OpenCV\opencv_build\build\include;E:\sourse\OpenCV\opencv_build\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build/Release/cam.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build/Release/cam.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\sourse\OpenCV\opencv_build\build\include;E:\sourse\OpenCV\opencv_build\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\sourse\OpenCV\opencv_build\build\include;E:\sourse\OpenCV\opencv_build\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\sourse\OpenCV\opencv_build\build\include;E:\sourse\OpenCV\opencv_build\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build/MinSizeRel/cam.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build/MinSizeRel/cam.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\sourse\OpenCV\opencv_build\build\include;E:\sourse\OpenCV\opencv_build\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\sourse\OpenCV\opencv_build\build\include;E:\sourse\OpenCV\opencv_build\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\sourse\OpenCV\opencv_build\build\include;E:\sourse\OpenCV\opencv_build\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\opencv_world341.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build/RelWithDebInfo/cam.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build/RelWithDebInfo/cam.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\bin\cmake.exe -HC:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master -BC:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build --check-stamp-file C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/CMakeLists.txt;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\CMakeLists.txt;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeSystem.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeCCompiler.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\sourse\OpenCV\opencv_build\build\OpenCVConfig-version.cmake;E:\sourse\OpenCV\opencv_build\build\OpenCVConfig.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVConfig.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVModules.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVModules-debug.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\bin\cmake.exe -HC:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master -BC:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build --check-stamp-file C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/CMakeLists.txt;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\CMakeLists.txt;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeSystem.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeCCompiler.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\sourse\OpenCV\opencv_build\build\OpenCVConfig-version.cmake;E:\sourse\OpenCV\opencv_build\build\OpenCVConfig.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVConfig.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVModules.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVModules-debug.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\bin\cmake.exe -HC:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master -BC:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build --check-stamp-file C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/CMakeLists.txt;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\CMakeLists.txt;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeSystem.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeCCompiler.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\sourse\OpenCV\opencv_build\build\OpenCVConfig-version.cmake;E:\sourse\OpenCV\opencv_build\build\OpenCVConfig.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVConfig.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVModules.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVModules-debug.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\bin\cmake.exe -HC:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master -BC:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build --check-stamp-file C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/PHOENIX/Documents/MotionDetection-master/MotionDetection-master/CMakeLists.txt;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\CMakeLists.txt;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeSystem.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeCCompiler.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\sourse\OpenCV\opencv_build\build\OpenCVConfig-version.cmake;E:\sourse\OpenCV\opencv_build\build\OpenCVConfig.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVConfig.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\sourse\Tools\CMake\cmake-3.11.3-win64-x64\cmake-3.11.3-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVModules.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVModules-debug.cmake;E:\sourse\OpenCV\opencv_build\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\cam1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\ZERO_CHECK.vcxproj">
+      <Project>{B945EA5A-F9FB-3156-8F1E-554BE977061B}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

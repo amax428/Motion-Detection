@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\build\CMakeFiles\2eb855f59b46826116d4fc6c59588ba6\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{116791C7-9FA0-3D46-AC34-8DFF98A0B245}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

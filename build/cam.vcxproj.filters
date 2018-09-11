@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\cam1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PHOENIX\Documents\MotionDetection-master\MotionDetection-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{966E9527-AA88-36B2-8AAA-F926E687D7C8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
